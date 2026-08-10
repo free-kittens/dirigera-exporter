@@ -1,0 +1,13 @@
+.DS_Store
+**/.DS_Store
+.classpath
+.project
+org*
+*.jar
+etc/tempo/wal/*
+etc/tempo/blocks/*
+.env.local
+node_modules/
+.terraform*
+.env
+sha-my-actions.sh

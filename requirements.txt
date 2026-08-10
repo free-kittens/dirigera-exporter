@@ -1,0 +1,5 @@
+prometheus_client
+python-dotenv
+requests
+# Install the Leggin/dirigera client directly from GitHub
+git+https://github.com/Leggin/dirigera.git@main#egg=dirigera

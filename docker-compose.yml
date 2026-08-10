@@ -1,0 +1,14 @@
+---
+
+services:
+  dirigera-exporter:
+    platform: linux/arm64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dirigera-exporter:latest
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
