@@ -1,0 +1,16 @@
+name: License Compliance Check
+
+on: [push, pull_request]
+
+jobs:
+  license-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Run License Compliance Checker
+      uses: soheilbr82/automated-license-check@v1
+      with:
+        allowed_licenses: "MIT, Apache-2.0, BSD-3-Clause"
