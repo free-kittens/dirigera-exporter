@@ -11,3 +11,11 @@ node_modules/
 .terraform*
 .env
 sha-my-actions.sh
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
