@@ -87,6 +87,16 @@ DEVICE_LAST_SEEN = Gauge(
     "Device last seen as unix timestamp",
     ["device_id", "name", "type"],
 )
+DEVICE_TEMPERATURE_C = Gauge(
+    "dirigera_device_temperature_celsius",
+    "Device reported temperature in degrees Celsius",
+    ["device_id", "name", "type"],
+)
+DEVICE_HUMIDITY_PCT = Gauge(
+    "dirigera_device_humidity_percent",
+    "Device reported relative humidity in percent",
+    ["device_id", "name", "type"],
+)
 
 
 def safe_get(obj, *keys, default=None):
@@ -277,6 +287,23 @@ def collect_and_update_metrics(client):
         except Exception:
             battery_val = None
 
+        # environment sensors (e.g. TIMMERFLOTTE report currentTemperature/currentRH)
+        temperature = extract_device_attribute(
+            d, "currentTemperature", "current_temperature", "temperature"
+        )
+        try:
+            temperature_val = float(temperature) if temperature is not None else None
+        except Exception:
+            temperature_val = None
+
+        humidity = extract_device_attribute(
+            d, "currentRH", "current_r_h", "currentHumidity", "humidity"
+        )
+        try:
+            humidity_val = float(humidity) if humidity is not None else None
+        except Exception:
+            humidity_val = None
+
         # last seen
         last_seen = extract_device_attribute(d, "lastSeen", "last_seen", "last_seen_at")
         ts = None
@@ -301,6 +328,10 @@ def collect_and_update_metrics(client):
         DEVICE_POWER_W.labels(device_id=str(dev_id), name=name, type=dtype).set(power)
         if battery_val is not None:
             DEVICE_BATTERY_PCT.labels(device_id=str(dev_id), name=name, type=dtype).set(battery_val)
+        if temperature_val is not None:
+            DEVICE_TEMPERATURE_C.labels(device_id=str(dev_id), name=name, type=dtype).set(temperature_val)
+        if humidity_val is not None:
+            DEVICE_HUMIDITY_PCT.labels(device_id=str(dev_id), name=name, type=dtype).set(humidity_val)
         if ts is not None:
             DEVICE_LAST_SEEN.labels(device_id=str(dev_id), name=name, type=dtype).set(ts)
 

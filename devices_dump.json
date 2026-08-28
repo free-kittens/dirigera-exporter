@@ -1,0 +1,3535 @@
+{
+  "host": "192.168.0.252",
+  "device_count": 38,
+  "devices": [
+    {
+      "id": "6d982df2-72d4-41dc-ae4e-7168a23cdad4_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-02-13T19:09:37.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T16:29:18.000Z",
+      "attributes": {
+        "customName": "Charlie Switch",
+        "model": "Remote Control N2",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.16",
+        "hardwareVersion": "1",
+        "serialNumber": "94B216FFFEB5D20E",
+        "productCode": "E2002",
+        "batteryPercentage": 100,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "0a7bf3c9-f391-46f5-9a20-a78b67159843",
+        "name": "Charlie",
+        "color": "ikea_blue_no_58",
+        "icon": "rooms_bed"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "8137f1af-fc4f-4064-a4d2-53629c2e271c_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-01-03T14:28:30.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attributes": {
+        "customName": "Lampa 12",
+        "model": "JETSTROM 40100",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.8",
+        "hardwareVersion": "1",
+        "serialNumber": "781C9DFFFE517154",
+        "productCode": "L2208",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 98,
+        "startUpCurrentLevel": -1,
+        "colorTemperature": 2702,
+        "colorTemperatureMin": 4000,
+        "colorTemperatureMax": 2202,
+        "startupTemperature": -1,
+        "colorMode": "temperature",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorTemperature"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [
+        {
+          "id": "ece192ac-861d-487f-bf83-86ec7e046ea4",
+          "name": "Garage Lights",
+          "icon": "lighting_chandelier"
+        }
+      ],
+      "remoteLinks": [
+        "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+        "962068c7-567e-48cf-b032-3c9314677c68_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "716af101-812c-4c17-8e91-dd2ced06ff0d_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-01-05T14:36:20.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T06:32:31.000Z",
+      "attributes": {
+        "customName": "Tim Fj\u00e4rr Sovrum",
+        "model": "RODRET Dimmer",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.57",
+        "hardwareVersion": "1",
+        "serialNumber": "D44867FFFE22A90C",
+        "productCode": "E2201",
+        "batteryPercentage": 90,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "4e5ef280-f8ed-47fc-9a58-442f1e365537",
+        "name": "Sovrum ",
+        "color": "ikea_blue_no_63",
+        "icon": "rooms_bed"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "a37e42d7-c727-4737-b7c7-e39d686afa66_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2025-01-05T04:16:59.000Z",
+      "isReachable": false,
+      "lastSeen": "2026-07-21T07:31:01.000Z",
+      "attributes": {
+        "customName": "Kontorslampa",
+        "model": "TRADFRI bulb E27 WW 806lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.3.093",
+        "hardwareVersion": "2",
+        "serialNumber": "5C0272FFFE331F8A",
+        "productCode": "LED1836G9",
+        "isOn": true,
+        "startupOnOff": "startOn",
+        "lightLevel": 47,
+        "startUpCurrentLevel": -1,
+        "colorHue": 22.047556798635924,
+        "colorSaturation": 0.09967238269611647,
+        "colorMode": "color",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorHue",
+          "colorSaturation"
+        ]
+      },
+      "room": {
+        "id": "600d077a-99e9-4ee5-9312-b6e066c2191c",
+        "name": "Kontor",
+        "color": "ikea_orange_no_11",
+        "icon": "rooms_office_chair"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "37b969e0-e2ec-42b7-9ea1-c57203995da6_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "e60d2126-1f6e-4993-97de-39fca3f8067c_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-01-09T17:13:48.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T05:55:39.000Z",
+      "attributes": {
+        "customName": "Fj\u00e4rr F\u00f6nsterlampa",
+        "model": "RODRET Dimmer",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.57",
+        "hardwareVersion": "1",
+        "serialNumber": "ECF64CFFFE523A55",
+        "productCode": "E2201",
+        "batteryPercentage": 94,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "20cd0fa3-c34c-4ff9-bcec-1612cc735c43_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-01-03T14:28:36.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attributes": {
+        "customName": "Lampa 15",
+        "model": "STOFTMOLN ceiling/wall lamp WW37",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.006",
+        "hardwareVersion": "1",
+        "serialNumber": "781C9DFFFE88203D",
+        "productCode": "T2037",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 98,
+        "startUpCurrentLevel": -1,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [
+        {
+          "id": "ece192ac-861d-487f-bf83-86ec7e046ea4",
+          "name": "Garage Lights",
+          "icon": "lighting_chandelier"
+        }
+      ],
+      "remoteLinks": [
+        "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+        "962068c7-567e-48cf-b032-3c9314677c68_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "3d918fe9-a1c3-400f-8717-0b295497f06e_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2025-01-05T04:25:32.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T05:45:52.000Z",
+      "customIcon": "lighting_wall_lamp",
+      "attributes": {
+        "customName": "Linda Sovrum",
+        "model": "TRADFRI bulb GU10 WW 345lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.42",
+        "hardwareVersion": "1",
+        "serialNumber": "60EFABFFFE0EA9A2",
+        "productCode": "LED2104R3",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 5,
+        "startUpCurrentLevel": -1,
+        "colorHue": 30.008876236194396,
+        "colorSaturation": 0.8166071553729757,
+        "colorMode": "color",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorHue",
+          "colorSaturation"
+        ]
+      },
+      "room": {
+        "id": "4e5ef280-f8ed-47fc-9a58-442f1e365537",
+        "name": "Sovrum ",
+        "color": "ikea_blue_no_63",
+        "icon": "rooms_bed"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "76fa7f31-9d54-43eb-9642-08e940a55a8d_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "db2e1753-7c78-49f8-aaa9-f92d7d56b0e2_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "createdAt": "2025-11-25T16:47:36.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:09.000Z",
+      "attributes": {
+        "customName": "TV",
+        "model": "INSPELNING Smart plug",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.45",
+        "hardwareVersion": "1",
+        "serialNumber": "180DF9FFFEC4209E",
+        "productCode": "E2206",
+        "isOn": true,
+        "startupOnOff": "startPrevious",
+        "lightLevel": 41,
+        "startUpCurrentLevel": -1,
+        "currentVoltage": 235.1999969482422,
+        "currentAmps": 0.2809999883174896,
+        "currentActivePower": 56.79999923706055,
+        "totalEnergyConsumed": 200.1020050048828,
+        "totalEnergyConsumedLastUpdated": "2026-08-28T07:05:59.000Z",
+        "energyConsumedAtLastReset": 0,
+        "timeOfLastEnergyReset": "2025-11-25T16:47:41.000Z",
+        "childLock": false,
+        "statusLight": false,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00"
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "energyConsumedAtLastReset",
+          "childLock",
+          "statusLight"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "42c4c79c-6d0e-40ca-b3f7-3b6cf3b72053_1",
+      "relationId": "42c4c79c-6d0e-40ca-b3f7-3b6cf3b72053",
+      "type": "gateway",
+      "deviceType": "gateway",
+      "createdAt": "2024-03-07T15:49:59.627Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:00.236Z",
+      "attributes": {
+        "customName": "Hem",
+        "model": "DIRIGERA Hub for smart products",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.975.2",
+        "hardwareVersion": "P2.5",
+        "serialNumber": "42c4c79c-6d0e-40ca-b3f7-3b6cf3b72053",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoDownload",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "permittingJoin": false,
+        "backendConnected": true,
+        "backendConnectionPersistent": true,
+        "backendOnboardingComplete": true,
+        "backendRegion": "eu-central-1",
+        "backendCountryCode": "SE",
+        "userConsents": [
+          {
+            "name": "analytics",
+            "value": "disabled"
+          },
+          {
+            "name": "diagnostics",
+            "value": "enabled"
+          }
+        ],
+        "logLevel": 3,
+        "coredump": false,
+        "timezone": "Europe/Stockholm",
+        "nextSunSet": "2026-08-28T18:13:00.000Z",
+        "nextSunRise": "2026-08-29T04:06:00.000Z",
+        "sunPosition": "sunUp",
+        "homestate": "home",
+        "countryCode": "XZ",
+        "coordinates": {
+          "latitude": 55.6116011,
+          "longitude": 13.5455653,
+          "accuracy": -1
+        },
+        "isOn": false
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "permittingJoin",
+          "userConsents",
+          "logLevel",
+          "time",
+          "timezone",
+          "countryCode",
+          "coordinates"
+        ]
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "dynamicFeatures": [
+        {
+          "type": "matterControllerEnabled",
+          "enabled": true,
+          "featureVersion": "26.4.0"
+        }
+      ]
+    },
+    {
+      "id": "76fa7f31-9d54-43eb-9642-08e940a55a8d_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-01-05T14:31:15.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:22:30.000Z",
+      "attributes": {
+        "customName": "Linda Fj\u00e4rr Sovrum",
+        "model": "RODRET Dimmer",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.57",
+        "hardwareVersion": "1",
+        "serialNumber": "ECF64CFFFEAD355D",
+        "productCode": "E2201",
+        "batteryPercentage": 92,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "4e5ef280-f8ed-47fc-9a58-442f1e365537",
+        "name": "Sovrum ",
+        "color": "ikea_blue_no_63",
+        "icon": "rooms_bed"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "fb6d2301-d383-4799-a808-ebe037c29f3e_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-02-17T17:19:02.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:05:00.000Z",
+      "attributes": {
+        "identifyStarted": "2026-02-05T03:26:45.000Z",
+        "identifyPeriod": 0,
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 93,
+        "startUpCurrentLevel": -1,
+        "colorHue": 35.489227294921875,
+        "colorSaturation": 0.6638935208320618,
+        "colorTemperature": 2450,
+        "colorTemperatureMin": 6535,
+        "colorTemperatureMax": 2202,
+        "colorMode": "temperature",
+        "customName": "Front door",
+        "model": "KAJPLATS E27 WS globe 1521lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.2.0",
+        "hardwareVersion": "P2.0",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "productCode": "LED2408G10",
+        "permittingJoin": false,
+        "windowOpen": false,
+        "setupCode": "",
+        "discriminator": -1,
+        "qrCode": "",
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "isOn",
+          "lightLevel",
+          "colorTemperature",
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "65cd5405-fa87-4816-a8b0-0402d45e988f",
+        "name": "Outside Front",
+        "color": "ikea_green_no_65",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_2"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "c014a64b-bdba-4bca-ba7d-03072355320b_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "createdAt": "2025-10-24T14:34:59.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:00.000Z",
+      "attributes": {
+        "customName": "Plant lights",
+        "model": "INSPELNING Smart plug",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.45",
+        "hardwareVersion": "1",
+        "serialNumber": "08FD52FFFE023C89",
+        "productCode": "E2206",
+        "isOn": false,
+        "startupOnOff": "startPrevious",
+        "lightLevel": 100,
+        "startUpCurrentLevel": -1,
+        "currentVoltage": 237.10000610351562,
+        "currentAmps": 0.003000000026077032,
+        "currentActivePower": 0,
+        "totalEnergyConsumed": 45.994998931884766,
+        "totalEnergyConsumedLastUpdated": "2026-08-28T07:06:00.000Z",
+        "energyConsumedAtLastReset": 0,
+        "timeOfLastEnergyReset": "2025-10-24T14:35:05.000Z",
+        "childLock": false,
+        "statusLight": false,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00"
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "energyConsumedAtLastReset",
+          "childLock",
+          "statusLight"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "5af51e81-56ca-4be8-ab30-a8060c3736fc_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2025-01-05T03:55:55.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T21:41:44.000Z",
+      "customIcon": "lighting_ached_lamp",
+      "attributes": {
+        "customName": "Golvlampa",
+        "model": "TRADFRI bulb E27 CWS opal 600lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.3.086",
+        "hardwareVersion": "1",
+        "serialNumber": "680AE2FFFE160E48",
+        "productCode": "LED1624G9E27EU",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 77,
+        "startUpCurrentLevel": -1,
+        "colorHue": 36.002197265625,
+        "colorSaturation": 0.5826771653543307,
+        "colorMode": "color",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorHue",
+          "colorSaturation"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "2412eeaa-67c4-4dbe-88ec-ca8282295f7a_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "3d0fcace-d57d-48fa-9e8f-8555d4bd82b3_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-01-03T14:28:32.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attributes": {
+        "customName": "Lampa 14",
+        "model": "STOFTMOLN ceiling/wall lamp WW37",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.006",
+        "hardwareVersion": "1",
+        "serialNumber": "781C9DFFFE77AFF3",
+        "productCode": "T2037",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 98,
+        "startUpCurrentLevel": -1,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [
+        {
+          "id": "ece192ac-861d-487f-bf83-86ec7e046ea4",
+          "name": "Garage Lights",
+          "icon": "lighting_chandelier"
+        }
+      ],
+      "remoteLinks": [
+        "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+        "962068c7-567e-48cf-b032-3c9314677c68_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "bbf96d15-602f-4511-bcbb-d33ebc8b7789_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "createdAt": "2025-01-09T15:53:56.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T06:08:58.000Z",
+      "attributes": {
+        "customName": "Smart kontakt Byr\u00e5",
+        "model": "TRETAKT Smart plug",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.4",
+        "hardwareVersion": "1",
+        "serialNumber": "881A14FFFEEBDAEB",
+        "productCode": "E2204",
+        "isOn": true,
+        "startupOnOff": "startPrevious",
+        "lightLevel": 100,
+        "startUpCurrentLevel": -1,
+        "childLock": false,
+        "statusLight": true,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00"
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "childLock",
+          "statusLight"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "e60d2126-1f6e-4993-97de-39fca3f8067c_1"
+      ],
+      "isHidden": false
+    },
+    {
+      "id": "ff0d32c7-7069-46b2-a400-386eddc236a7_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-01-20T13:39:37.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T22:19:36.000Z",
+      "attributes": {
+        "customName": "K\u00f6ksbank Sw",
+        "model": "TRADFRI remote control",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "24.4.5",
+        "hardwareVersion": "1",
+        "serialNumber": "BC33ACFFFEC2F367",
+        "productCode": "E1810",
+        "batteryPercentage": 100,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "01e469bf-3223-4b66-995f-dc06edeb4a05",
+        "name": "K\u00f6k",
+        "color": "ikea_green_no_66",
+        "icon": "rooms_kitchen"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "90aecc6d-418e-42bd-871c-45ffdd4903b9_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-01-05T14:43:18.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T04:54:36.000Z",
+      "attributes": {
+        "customName": "Vardagsrum Fj\u00e4rr",
+        "model": "RODRET Dimmer",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.57",
+        "hardwareVersion": "1",
+        "serialNumber": "ECF64CFFFE557C41",
+        "productCode": "E2201",
+        "batteryPercentage": 90,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "b746f802-6234-42e0-a9d4-370f29bc52cc_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-01-03T14:28:24.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attributes": {
+        "customName": "Lampa 13",
+        "model": "STOFTMOLN ceiling/wall lamp WW37",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.1.7",
+        "hardwareVersion": "1",
+        "serialNumber": "8C8B48FFFEC71EFD",
+        "productCode": "T2037",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 98,
+        "startUpCurrentLevel": -1,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [
+        {
+          "id": "ece192ac-861d-487f-bf83-86ec7e046ea4",
+          "name": "Garage Lights",
+          "icon": "lighting_chandelier"
+        }
+      ],
+      "remoteLinks": [
+        "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+        "962068c7-567e-48cf-b032-3c9314677c68_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "b43a2cf2-f554-4eca-b2ea-7631cc880553_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2025-01-05T04:46:21.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T06:58:44.000Z",
+      "customIcon": "lighting_wall_lamp",
+      "attributes": {
+        "customName": "Tim Sovrum",
+        "model": "TRADFRI bulb GU10 WW 345lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.42",
+        "hardwareVersion": "1",
+        "serialNumber": "B0C7DEFFFE4536C5",
+        "productCode": "LED2104R3",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 11,
+        "startUpCurrentLevel": -1,
+        "colorHue": 14.838390418702204,
+        "colorSaturation": 0.999431731130952,
+        "colorMode": "color",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorHue",
+          "colorSaturation"
+        ]
+      },
+      "room": {
+        "id": "4e5ef280-f8ed-47fc-9a58-442f1e365537",
+        "name": "Sovrum ",
+        "color": "ikea_blue_no_63",
+        "icon": "rooms_bed"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "716af101-812c-4c17-8e91-dd2ced06ff0d_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "e4bc3cc4-c18d-4b7d-b835-1ce6c2e8f1b1_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "createdAt": "2025-05-09T11:34:52.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:01:05.000Z",
+      "attributes": {
+        "customName": "F\u00f6nsterlampa",
+        "model": "TRETAKT Smart plug",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.4",
+        "hardwareVersion": "1",
+        "serialNumber": "94EC32FFFEFDC132",
+        "productCode": "E2204",
+        "isOn": true,
+        "startupOnOff": "startPrevious",
+        "lightLevel": 100,
+        "startUpCurrentLevel": -1,
+        "childLock": false,
+        "statusLight": true,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00"
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "childLock",
+          "statusLight"
+        ]
+      },
+      "room": {
+        "id": "600d077a-99e9-4ee5-9312-b6e066c2191c",
+        "name": "Kontor",
+        "color": "ikea_orange_no_11",
+        "icon": "rooms_office_chair"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "37b969e0-e2ec-42b7-9ea1-c57203995da6_1"
+      ],
+      "isHidden": false
+    },
+    {
+      "id": "962068c7-567e-48cf-b032-3c9314677c68_1",
+      "relationId": "962068c7-567e-48cf-b032-3c9314677c68",
+      "type": "sensor",
+      "deviceType": "motionSensor",
+      "createdAt": "2025-10-26T10:00:05.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:56.000Z",
+      "attributes": {
+        "customName": "Motion 1",
+        "model": "VALLHORN Wireless Motion Sensor",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.64",
+        "hardwareVersion": "1",
+        "serialNumber": "348D13FFFEEC2114",
+        "productCode": "E2134",
+        "batteryPercentage": 100,
+        "isOn": false,
+        "motionDetectedDelay": 20,
+        "isDetected": false,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "sensorConfig": {
+          "scheduleOn": false,
+          "onDuration": 300
+        },
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "962068c7-567e-48cf-b032-3c9314677c68_3",
+      "relationId": "962068c7-567e-48cf-b032-3c9314677c68",
+      "type": "unknown",
+      "deviceType": "lightSensor",
+      "createdAt": "2025-10-26T10:00:05.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:56.000Z",
+      "attributes": {
+        "customName": "",
+        "model": "VALLHORN Wireless Motion Sensor",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.64",
+        "hardwareVersion": "1",
+        "serialNumber": "348D13FFFEEC2114",
+        "productCode": "E2134",
+        "illuminance": 0,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "a16d8c91-4985-4b91-a5a7-bb335535fe80_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-02-20T10:39:33.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:04:55.000Z",
+      "attributes": {
+        "identifyStarted": "2026-02-05T03:26:45.000Z",
+        "identifyPeriod": 0,
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 88,
+        "startUpCurrentLevel": -1,
+        "colorHue": 35.489227294921875,
+        "colorSaturation": 0.6638935208320618,
+        "colorTemperature": 2450,
+        "colorTemperatureMin": 6535,
+        "colorTemperatureMax": 2202,
+        "colorMode": "temperature",
+        "customName": "Outside Garage",
+        "model": "KAJPLATS E27 WS globe 1521lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.2.0",
+        "hardwareVersion": "P2.0",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "productCode": "LED2408G10",
+        "permittingJoin": false,
+        "windowOpen": false,
+        "setupCode": "",
+        "discriminator": -1,
+        "qrCode": "",
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "isOn",
+          "lightLevel",
+          "colorTemperature",
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "65cd5405-fa87-4816-a8b0-0402d45e988f",
+        "name": "Outside Front",
+        "color": "ikea_green_no_65",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_2"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-10-24T08:14:21.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T22:11:53.000Z",
+      "attributes": {
+        "customName": "Garage switch",
+        "model": "RODRET wireless dimmer",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.57",
+        "hardwareVersion": "1",
+        "serialNumber": "54DCE9FFFEEC06FC",
+        "productCode": "E2201",
+        "batteryPercentage": 97,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "53499619-c064-4dd3-97e1-c1f94e9546a7_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-01-03T14:28:45.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attributes": {
+        "customName": "Lampa 16",
+        "model": "STOFTMOLN ceiling/wall lamp WW37",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.006",
+        "hardwareVersion": "1",
+        "serialNumber": "781C9DFFFEE9CC0B",
+        "productCode": "T2037",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 98,
+        "startUpCurrentLevel": -1,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [
+        {
+          "id": "ece192ac-861d-487f-bf83-86ec7e046ea4",
+          "name": "Garage Lights",
+          "icon": "lighting_chandelier"
+        }
+      ],
+      "remoteLinks": [
+        "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+        "962068c7-567e-48cf-b032-3c9314677c68_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "2138e153-c161-46d2-851b-1c71562b5fd6_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2025-05-09T11:23:04.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T21:41:44.000Z",
+      "customIcon": "lighting_cone_pendant",
+      "attributes": {
+        "customName": "Middle living room",
+        "model": "TRADFRIbulbE27WSglobeclear806lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.0.012",
+        "hardwareVersion": "1",
+        "serialNumber": "6CFD22FFFEF03679",
+        "productCode": "LED2004G8",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 76,
+        "startUpCurrentLevel": -1,
+        "colorTemperature": 2695,
+        "colorTemperatureMin": 4000,
+        "colorTemperatureMax": 2202,
+        "startupTemperature": -1,
+        "colorMode": "temperature",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorTemperature"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "2412eeaa-67c4-4dbe-88ec-ca8282295f7a_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "419837c1-500c-485c-a3de-7a585e157dea_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2026-02-16T17:29:52.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:05:38.000Z",
+      "attributes": {
+        "identifyStarted": "2026-02-05T03:26:45.000Z",
+        "identifyPeriod": 0,
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 81,
+        "startUpCurrentLevel": -1,
+        "colorHue": 35.489227294921875,
+        "colorSaturation": 0.6638935208320618,
+        "colorTemperature": 2450,
+        "colorTemperatureMin": 6535,
+        "colorTemperatureMax": 2202,
+        "colorMode": "temperature",
+        "customName": "Groving\u00e5ng",
+        "model": "KAJPLATS E27 WS globe 1521lm",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.2.0",
+        "hardwareVersion": "P2.0",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "productCode": "LED2408G10",
+        "permittingJoin": false,
+        "windowOpen": false,
+        "setupCode": "",
+        "discriminator": -1,
+        "qrCode": "",
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "isOn",
+          "lightLevel",
+          "colorTemperature",
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "65cd5405-fa87-4816-a8b0-0402d45e988f",
+        "name": "Outside Front",
+        "color": "ikea_green_no_65",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_2"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_1",
+      "relationId": "9d058fb1-5f35-4e82-a438-2da3f61f9e8d",
+      "type": "unknown",
+      "deviceType": "lightSensor",
+      "createdAt": "2026-05-13T16:43:35.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:16.000Z",
+      "attributes": {
+        "identifyStarted": "2026-04-25T02:26:43.000Z",
+        "identifyPeriod": 0,
+        "illuminance": 16128,
+        "maxIlluminance": 40001,
+        "minIlluminance": 1,
+        "customName": "Front Door",
+        "model": "MYGGSPRAY wrlss mtn sensor",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.1.4",
+        "hardwareVersion": "P2.0",
+        "serialNumber": "1168005704637229174",
+        "productCode": "E2494",
+        "permittingJoin": false,
+        "windowOpen": false,
+        "setupCode": "",
+        "discriminator": -1,
+        "qrCode": "",
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "batteryPercentage": 100
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "65cd5405-fa87-4816-a8b0-0402d45e988f",
+        "name": "Outside Front",
+        "color": "ikea_green_no_65",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_2",
+      "relationId": "9d058fb1-5f35-4e82-a438-2da3f61f9e8d",
+      "type": "sensor",
+      "deviceType": "occupancySensor",
+      "createdAt": "2026-05-13T16:43:35.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:16.000Z",
+      "attributes": {
+        "identifyStarted": "2026-04-25T02:26:43.000Z",
+        "identifyPeriod": 0,
+        "isDetected": false,
+        "customName": "Front Door",
+        "model": "MYGGSPRAY wrlss mtn sensor",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "1.1.4",
+        "hardwareVersion": "P2.0",
+        "serialNumber": "1168005704637229174",
+        "productCode": "E2494",
+        "permittingJoin": false,
+        "windowOpen": false,
+        "setupCode": "",
+        "discriminator": -1,
+        "qrCode": "",
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "batteryPercentage": 100,
+        "sensorConfig": {
+          "scheduleOn": true,
+          "onDuration": 300,
+          "schedule": {
+            "onCondition": {
+              "time": "sunset"
+            },
+            "offCondition": {
+              "time": "sunrise"
+            }
+          }
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "65cd5405-fa87-4816-a8b0-0402d45e988f",
+        "name": "Outside Front",
+        "color": "ikea_green_no_65",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "30e33425-12fa-45de-9cc9-08ad81e9c0f5_1",
+      "type": "light",
+      "deviceType": "light",
+      "createdAt": "2025-01-05T03:54:34.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T07:33:16.000Z",
+      "attributes": {
+        "customName": "Belysning K\u00f6ksb\u00e4nk",
+        "model": "TRADFRI Driver 30W",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.3.086",
+        "hardwareVersion": "1",
+        "serialNumber": "BC33ACFFFE672744",
+        "productCode": "ICPSHC2430EUIL1",
+        "isOn": false,
+        "startupOnOff": "startOn",
+        "lightLevel": 100,
+        "startUpCurrentLevel": -1,
+        "colorHue": 29.107938257746014,
+        "colorSaturation": 0.3571345694224767,
+        "colorMode": "color",
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "deviceOnBehavior": {
+          "behavior": "lastValue",
+          "profileId": ""
+        }
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "colorHue",
+          "colorSaturation"
+        ]
+      },
+      "room": {
+        "id": "01e469bf-3223-4b66-995f-dc06edeb4a05",
+        "name": "K\u00f6k",
+        "color": "ikea_green_no_66",
+        "icon": "rooms_kitchen"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "ff0d32c7-7069-46b2-a400-386eddc236a7_1"
+      ],
+      "isHidden": false,
+      "adaptiveProfile": {}
+    },
+    {
+      "id": "2412eeaa-67c4-4dbe-88ec-ca8282295f7a_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-05-08T18:52:33.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T14:21:13.000Z",
+      "attributes": {
+        "customName": "Livingroom Dimmer",
+        "model": "Remote Control N2",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.16",
+        "hardwareVersion": "1",
+        "serialNumber": "44E2F8FFFE39E310",
+        "productCode": "E2002",
+        "batteryPercentage": 100,
+        "isOn": false,
+        "lightLevel": 1,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "44c305de-a98a-4c9e-a3fa-7c8ca6ae7f6e_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "createdAt": "2025-01-04T13:31:08.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T05:39:30.000Z",
+      "attributes": {
+        "customName": "Uttag Lampa F\u00f6nster",
+        "model": "TRETAKT Smart plug",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.4",
+        "hardwareVersion": "1",
+        "serialNumber": "881A14FFFE8A1D0F",
+        "productCode": "E2204",
+        "isOn": true,
+        "startupOnOff": "startPrevious",
+        "lightLevel": 2,
+        "startUpCurrentLevel": -1,
+        "childLock": false,
+        "statusLight": true,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00"
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "childLock",
+          "statusLight"
+        ]
+      },
+      "room": {
+        "id": "4676eddf-b7bf-4f0c-84fd-4404f6faad74",
+        "name": "Vardagsrum",
+        "color": "ikea_beige_no_4",
+        "icon": "rooms_sofa"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "90aecc6d-418e-42bd-871c-45ffdd4903b9_1"
+      ],
+      "isHidden": false
+    },
+    {
+      "id": "f528b55f-9c3f-4e34-8697-996ab0db6e4d_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "createdAt": "2026-01-08T12:09:37.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:00.000Z",
+      "attributes": {
+        "customName": "Charlies Computer",
+        "model": "INSPELNING Smart plug",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "2.4.45",
+        "hardwareVersion": "1",
+        "serialNumber": "C09B9EFFFE0B4C8A",
+        "productCode": "E2206",
+        "isOn": true,
+        "startupOnOff": "startPrevious",
+        "lightLevel": 100,
+        "startUpCurrentLevel": -1,
+        "currentVoltage": 236,
+        "currentAmps": 0.17800000309944153,
+        "currentActivePower": 12.5,
+        "totalEnergyConsumed": 442.510986328125,
+        "totalEnergyConsumedLastUpdated": "2026-08-28T07:05:35.000Z",
+        "energyConsumedAtLastReset": 0,
+        "timeOfLastEnergyReset": "2026-01-08T12:09:40.000Z",
+        "childLock": false,
+        "statusLight": false,
+        "identifyStarted": "2000-01-01T00:00:00.000Z",
+        "identifyPeriod": 0,
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00"
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "isOn",
+          "lightLevel",
+          "energyConsumedAtLastReset",
+          "childLock",
+          "statusLight"
+        ]
+      },
+      "room": {
+        "id": "0a7bf3c9-f391-46f5-9a20-a78b67159843",
+        "name": "Charlie",
+        "color": "ikea_blue_no_58",
+        "icon": "rooms_bed"
+      },
+      "deviceSet": [],
+      "remoteLinks": [
+        "6d982df2-72d4-41dc-ae4e-7168a23cdad4_1"
+      ],
+      "isHidden": false
+    },
+    {
+      "id": "37b969e0-e2ec-42b7-9ea1-c57203995da6_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "createdAt": "2025-01-20T13:37:00.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T17:39:05.000Z",
+      "attributes": {
+        "customName": "Kontorslampa Fj\u00e4rrkontoll",
+        "model": "TRADFRI on/off switch",
+        "manufacturer": "IKEA of Sweden",
+        "firmwareVersion": "24.4.6",
+        "hardwareVersion": "1",
+        "serialNumber": "5C0272FFFEAAFD98",
+        "productCode": "E1743",
+        "batteryPercentage": 75,
+        "isOn": false,
+        "lightLevel": 1,
+        "blindsCurrentLevel": 0,
+        "blindsState": "",
+        "permittingJoin": false,
+        "otaStatus": "upToDate",
+        "otaState": "readyToCheck",
+        "otaProgress": 0,
+        "otaPolicy": "autoUpdate",
+        "otaScheduleStart": "00:00",
+        "otaScheduleEnd": "00:00",
+        "circadianPresets": []
+      },
+      "capabilities": {
+        "canSend": [
+          "isOn",
+          "lightLevel",
+          "blindsState"
+        ],
+        "canReceive": [
+          "customName"
+        ]
+      },
+      "room": {
+        "id": "600d077a-99e9-4ee5-9312-b6e066c2191c",
+        "name": "Kontor",
+        "color": "ikea_orange_no_11",
+        "icon": "rooms_office_chair"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "761be867-57f5-473b-bab1-228469c60699_1",
+      "relationId": "761be867-57f5-473b-bab1-228469c60699",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "createdAt": "2026-08-27T18:46:59.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:04:26.000Z",
+      "attributes": {
+        "identifyPeriod": 0,
+        "identifyStarted": "2026-07-21T07:30:57.000Z",
+        "currentTemperature": 16.010000228881836,
+        "customName": "TIMMERFLOTTE temp hmd sen",
+        "firmwareVersion": "1.0.21",
+        "hardwareVersion": "P2.1",
+        "manufacturer": "IKEA of Sweden",
+        "model": "TIMMERFLOTTE temp/hmd sensor",
+        "productCode": "E2314",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "discriminator": -1,
+        "permittingJoin": false,
+        "qrCode": "",
+        "setupCode": "",
+        "windowOpen": false,
+        "otaPolicy": "autoUpdate",
+        "otaProgress": 0,
+        "otaScheduleEnd": "00:00",
+        "otaScheduleStart": "00:00",
+        "otaState": "readyToCheck",
+        "otaStatus": "upToDate",
+        "batteryPercentage": 100
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "1e12f9c9-12b9-4ff3-ac91-a8c815a26ded",
+        "name": "Husbil",
+        "color": "ikea_pink_no_6",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "761be867-57f5-473b-bab1-228469c60699_2",
+      "relationId": "761be867-57f5-473b-bab1-228469c60699",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "createdAt": "2026-08-27T18:46:59.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:04:26.000Z",
+      "attributes": {
+        "identifyPeriod": 0,
+        "identifyStarted": "2026-07-21T07:30:57.000Z",
+        "currentRH": 68,
+        "customName": "TIMMERFLOTTE temp hmd sen",
+        "firmwareVersion": "1.0.21",
+        "hardwareVersion": "P2.1",
+        "manufacturer": "IKEA of Sweden",
+        "model": "TIMMERFLOTTE temp/hmd sensor",
+        "productCode": "E2314",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "discriminator": -1,
+        "permittingJoin": false,
+        "qrCode": "",
+        "setupCode": "",
+        "windowOpen": false,
+        "otaPolicy": "autoUpdate",
+        "otaProgress": 0,
+        "otaScheduleEnd": "00:00",
+        "otaScheduleStart": "00:00",
+        "otaState": "readyToCheck",
+        "otaStatus": "upToDate",
+        "batteryPercentage": 100
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "4bd8b9b8-9377-4529-891f-79baee3bfbdc_1",
+      "relationId": "4bd8b9b8-9377-4529-891f-79baee3bfbdc",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "createdAt": "2026-08-27T19:00:02.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:11.000Z",
+      "attributes": {
+        "identifyPeriod": 0,
+        "identifyStarted": "2026-07-21T07:30:57.000Z",
+        "currentTemperature": 19.81999969482422,
+        "customName": "TIMMERFLOTTE Garage",
+        "firmwareVersion": "1.0.21",
+        "hardwareVersion": "P2.1",
+        "manufacturer": "IKEA of Sweden",
+        "model": "TIMMERFLOTTE temp/hmd sensor",
+        "productCode": "E2314",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "discriminator": -1,
+        "permittingJoin": false,
+        "qrCode": "",
+        "setupCode": "",
+        "windowOpen": false,
+        "otaPolicy": "autoUpdate",
+        "otaProgress": 0,
+        "otaScheduleEnd": "00:00",
+        "otaScheduleStart": "00:00",
+        "otaState": "readyToCheck",
+        "otaStatus": "upToDate",
+        "batteryPercentage": 100
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "room": {
+        "id": "1c5eeaec-87af-4c9a-96b1-9ccf75661c35",
+        "name": "Garage",
+        "color": "ikea_beige_no_3",
+        "icon": "rooms_car"
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    },
+    {
+      "id": "4bd8b9b8-9377-4529-891f-79baee3bfbdc_2",
+      "relationId": "4bd8b9b8-9377-4529-891f-79baee3bfbdc",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "createdAt": "2026-08-27T19:00:02.000Z",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:11.000Z",
+      "attributes": {
+        "identifyPeriod": 0,
+        "identifyStarted": "2026-07-21T07:30:57.000Z",
+        "currentRH": 60,
+        "customName": "TIMMERFLOTTE Garage",
+        "firmwareVersion": "1.0.21",
+        "hardwareVersion": "P2.1",
+        "manufacturer": "IKEA of Sweden",
+        "model": "TIMMERFLOTTE temp/hmd sensor",
+        "productCode": "E2314",
+        "serialNumber": "UNKNOWN_SERIAL_NUMBER",
+        "discriminator": -1,
+        "permittingJoin": false,
+        "qrCode": "",
+        "setupCode": "",
+        "windowOpen": false,
+        "otaPolicy": "autoUpdate",
+        "otaProgress": 0,
+        "otaScheduleEnd": "00:00",
+        "otaScheduleStart": "00:00",
+        "otaState": "readyToCheck",
+        "otaStatus": "upToDate",
+        "batteryPercentage": 100
+      },
+      "capabilities": {
+        "canSend": [],
+        "canReceive": [
+          "customName",
+          "windowOpen"
+        ]
+      },
+      "deviceSet": [],
+      "remoteLinks": [],
+      "isHidden": false
+    }
+  ],
+  "summary": [
+    {
+      "id": "6d982df2-72d4-41dc-ae4e-7168a23cdad4_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Charlie Switch",
+      "room": "Charlie",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T16:29:18.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 100,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "8137f1af-fc4f-4064-a4d2-53629c2e271c_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Lampa 12",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attribute_keys": [
+        "colorMode",
+        "colorTemperature",
+        "colorTemperatureMax",
+        "colorTemperatureMin",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "startupTemperature"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 98,
+        "colorTemperature": 2702
+      }
+    },
+    {
+      "id": "716af101-812c-4c17-8e91-dd2ced06ff0d_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Tim Fj\u00e4rr Sovrum",
+      "room": "Sovrum ",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T06:32:31.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 90,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "a37e42d7-c727-4737-b7c7-e39d686afa66_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Kontorslampa",
+      "room": "Kontor",
+      "isReachable": null,
+      "lastSeen": "2026-07-21T07:31:01.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": true,
+        "lightLevel": 47
+      }
+    },
+    {
+      "id": "e60d2126-1f6e-4993-97de-39fca3f8067c_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Fj\u00e4rr F\u00f6nsterlampa",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T05:55:39.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 94,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "20cd0fa3-c34c-4ff9-bcec-1612cc735c43_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Lampa 15",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attribute_keys": [
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 98
+      }
+    },
+    {
+      "id": "3d918fe9-a1c3-400f-8717-0b295497f06e_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Linda Sovrum",
+      "room": "Sovrum ",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T05:45:52.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 5
+      }
+    },
+    {
+      "id": "db2e1753-7c78-49f8-aaa9-f92d7d56b0e2_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "name": "TV",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:09.000Z",
+      "attribute_keys": [
+        "childLock",
+        "currentActivePower",
+        "currentAmps",
+        "currentVoltage",
+        "customName",
+        "energyConsumedAtLastReset",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "statusLight",
+        "timeOfLastEnergyReset",
+        "totalEnergyConsumed",
+        "totalEnergyConsumedLastUpdated"
+      ],
+      "attributes": {
+        "currentActivePower": 56.79999923706055,
+        "currentAmps": 0.2809999883174896,
+        "currentVoltage": 235.1999969482422,
+        "totalEnergyConsumed": 200.1020050048828,
+        "isOn": true,
+        "lightLevel": 41
+      }
+    },
+    {
+      "id": "42c4c79c-6d0e-40ca-b3f7-3b6cf3b72053_1",
+      "type": "gateway",
+      "deviceType": "gateway",
+      "name": "Hem",
+      "room": null,
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:00.236Z",
+      "attribute_keys": [
+        "backendConnected",
+        "backendConnectionPersistent",
+        "backendCountryCode",
+        "backendOnboardingComplete",
+        "backendRegion",
+        "coordinates",
+        "coredump",
+        "countryCode",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "homestate",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "logLevel",
+        "manufacturer",
+        "model",
+        "nextSunRise",
+        "nextSunSet",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "serialNumber",
+        "sunPosition",
+        "timezone",
+        "userConsents"
+      ],
+      "attributes": {
+        "isOn": false
+      }
+    },
+    {
+      "id": "76fa7f31-9d54-43eb-9642-08e940a55a8d_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Linda Fj\u00e4rr Sovrum",
+      "room": "Sovrum ",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:22:30.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 92,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "fb6d2301-d383-4799-a808-ebe037c29f3e_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Front door",
+      "room": "Outside Front",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:05:00.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "colorTemperature",
+        "colorTemperatureMax",
+        "colorTemperatureMin",
+        "customName",
+        "deviceOnBehavior",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "windowOpen"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 93,
+        "colorTemperature": 2450
+      }
+    },
+    {
+      "id": "c014a64b-bdba-4bca-ba7d-03072355320b_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "name": "Plant lights",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:00.000Z",
+      "attribute_keys": [
+        "childLock",
+        "currentActivePower",
+        "currentAmps",
+        "currentVoltage",
+        "customName",
+        "energyConsumedAtLastReset",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "statusLight",
+        "timeOfLastEnergyReset",
+        "totalEnergyConsumed",
+        "totalEnergyConsumedLastUpdated"
+      ],
+      "attributes": {
+        "currentActivePower": 0,
+        "currentAmps": 0.003000000026077032,
+        "currentVoltage": 237.10000610351562,
+        "totalEnergyConsumed": 45.994998931884766,
+        "isOn": false,
+        "lightLevel": 100
+      }
+    },
+    {
+      "id": "5af51e81-56ca-4be8-ab30-a8060c3736fc_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Golvlampa",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T21:41:44.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 77
+      }
+    },
+    {
+      "id": "3d0fcace-d57d-48fa-9e8f-8555d4bd82b3_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Lampa 14",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attribute_keys": [
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 98
+      }
+    },
+    {
+      "id": "bbf96d15-602f-4511-bcbb-d33ebc8b7789_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "name": "Smart kontakt Byr\u00e5",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T06:08:58.000Z",
+      "attribute_keys": [
+        "childLock",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "statusLight"
+      ],
+      "attributes": {
+        "isOn": true,
+        "lightLevel": 100
+      }
+    },
+    {
+      "id": "ff0d32c7-7069-46b2-a400-386eddc236a7_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "K\u00f6ksbank Sw",
+      "room": "K\u00f6k",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T22:19:36.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 100,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "90aecc6d-418e-42bd-871c-45ffdd4903b9_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Vardagsrum Fj\u00e4rr",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T04:54:36.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 90,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "b746f802-6234-42e0-a9d4-370f29bc52cc_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Lampa 13",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attribute_keys": [
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 98
+      }
+    },
+    {
+      "id": "b43a2cf2-f554-4eca-b2ea-7631cc880553_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Tim Sovrum",
+      "room": "Sovrum ",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T06:58:44.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 11
+      }
+    },
+    {
+      "id": "e4bc3cc4-c18d-4b7d-b835-1ce6c2e8f1b1_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "name": "F\u00f6nsterlampa",
+      "room": "Kontor",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:01:05.000Z",
+      "attribute_keys": [
+        "childLock",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "statusLight"
+      ],
+      "attributes": {
+        "isOn": true,
+        "lightLevel": 100
+      }
+    },
+    {
+      "id": "962068c7-567e-48cf-b032-3c9314677c68_1",
+      "type": "sensor",
+      "deviceType": "motionSensor",
+      "name": "Motion 1",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:56.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isDetected",
+        "isOn",
+        "manufacturer",
+        "model",
+        "motionDetectedDelay",
+        "permittingJoin",
+        "productCode",
+        "sensorConfig",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 100,
+        "isOn": false
+      }
+    },
+    {
+      "id": "962068c7-567e-48cf-b032-3c9314677c68_3",
+      "type": "unknown",
+      "deviceType": "lightSensor",
+      "name": null,
+      "room": null,
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:56.000Z",
+      "attribute_keys": [
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "illuminance",
+        "manufacturer",
+        "model",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {}
+    },
+    {
+      "id": "a16d8c91-4985-4b91-a5a7-bb335535fe80_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Outside Garage",
+      "room": "Outside Front",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:04:55.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "colorTemperature",
+        "colorTemperatureMax",
+        "colorTemperatureMin",
+        "customName",
+        "deviceOnBehavior",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "windowOpen"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 88,
+        "colorTemperature": 2450
+      }
+    },
+    {
+      "id": "f8db4d92-d8d5-4358-b1ee-e3523354fdd9_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Garage switch",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T22:11:53.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 97,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "53499619-c064-4dd3-97e1-c1f94e9546a7_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Lampa 16",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T19:04:51.000Z",
+      "attribute_keys": [
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 98
+      }
+    },
+    {
+      "id": "2138e153-c161-46d2-851b-1c71562b5fd6_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Middle living room",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T21:41:44.000Z",
+      "attribute_keys": [
+        "colorMode",
+        "colorTemperature",
+        "colorTemperatureMax",
+        "colorTemperatureMin",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "startupTemperature"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 76,
+        "colorTemperature": 2695
+      }
+    },
+    {
+      "id": "419837c1-500c-485c-a3de-7a585e157dea_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Groving\u00e5ng",
+      "room": "Outside Front",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:05:38.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "colorTemperature",
+        "colorTemperatureMax",
+        "colorTemperatureMin",
+        "customName",
+        "deviceOnBehavior",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "windowOpen"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 81,
+        "colorTemperature": 2450
+      }
+    },
+    {
+      "id": "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_1",
+      "type": "unknown",
+      "deviceType": "lightSensor",
+      "name": "Front Door",
+      "room": "Outside Front",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:16.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "customName",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "illuminance",
+        "manufacturer",
+        "maxIlluminance",
+        "minIlluminance",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "windowOpen"
+      ],
+      "attributes": {
+        "batteryPercentage": 100
+      }
+    },
+    {
+      "id": "9d058fb1-5f35-4e82-a438-2da3f61f9e8d_2",
+      "type": "sensor",
+      "deviceType": "occupancySensor",
+      "name": "Front Door",
+      "room": "Outside Front",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:16.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "customName",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isDetected",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "sensorConfig",
+        "serialNumber",
+        "setupCode",
+        "windowOpen"
+      ],
+      "attributes": {
+        "batteryPercentage": 100
+      }
+    },
+    {
+      "id": "30e33425-12fa-45de-9cc9-08ad81e9c0f5_1",
+      "type": "light",
+      "deviceType": "light",
+      "name": "Belysning K\u00f6ksb\u00e4nk",
+      "room": "K\u00f6k",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T07:33:16.000Z",
+      "attribute_keys": [
+        "colorHue",
+        "colorMode",
+        "colorSaturation",
+        "customName",
+        "deviceOnBehavior",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff"
+      ],
+      "attributes": {
+        "isOn": false,
+        "lightLevel": 100
+      }
+    },
+    {
+      "id": "2412eeaa-67c4-4dbe-88ec-ca8282295f7a_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Livingroom Dimmer",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T14:21:13.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 100,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "44c305de-a98a-4c9e-a3fa-7c8ca6ae7f6e_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "name": "Uttag Lampa F\u00f6nster",
+      "room": "Vardagsrum",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T05:39:30.000Z",
+      "attribute_keys": [
+        "childLock",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "statusLight"
+      ],
+      "attributes": {
+        "isOn": true,
+        "lightLevel": 2
+      }
+    },
+    {
+      "id": "f528b55f-9c3f-4e34-8697-996ab0db6e4d_1",
+      "type": "outlet",
+      "deviceType": "outlet",
+      "name": "Charlies Computer",
+      "room": "Charlie",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:06:00.000Z",
+      "attribute_keys": [
+        "childLock",
+        "currentActivePower",
+        "currentAmps",
+        "currentVoltage",
+        "customName",
+        "energyConsumedAtLastReset",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber",
+        "startUpCurrentLevel",
+        "startupOnOff",
+        "statusLight",
+        "timeOfLastEnergyReset",
+        "totalEnergyConsumed",
+        "totalEnergyConsumedLastUpdated"
+      ],
+      "attributes": {
+        "currentActivePower": 12.5,
+        "currentAmps": 0.17800000309944153,
+        "currentVoltage": 236,
+        "totalEnergyConsumed": 442.510986328125,
+        "isOn": true,
+        "lightLevel": 100
+      }
+    },
+    {
+      "id": "37b969e0-e2ec-42b7-9ea1-c57203995da6_1",
+      "type": "controller",
+      "deviceType": "lightController",
+      "name": "Kontorslampa Fj\u00e4rrkontoll",
+      "room": "Kontor",
+      "isReachable": true,
+      "lastSeen": "2026-08-27T17:39:05.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "blindsCurrentLevel",
+        "blindsState",
+        "circadianPresets",
+        "customName",
+        "firmwareVersion",
+        "hardwareVersion",
+        "isOn",
+        "lightLevel",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "serialNumber"
+      ],
+      "attributes": {
+        "batteryPercentage": 75,
+        "isOn": false,
+        "lightLevel": 1
+      }
+    },
+    {
+      "id": "761be867-57f5-473b-bab1-228469c60699_1",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "name": "TIMMERFLOTTE temp hmd sen",
+      "room": "Husbil",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:04:26.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "currentTemperature",
+        "customName",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "windowOpen"
+      ],
+      "attributes": {
+        "batteryPercentage": 100
+      }
+    },
+    {
+      "id": "761be867-57f5-473b-bab1-228469c60699_2",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "name": "TIMMERFLOTTE temp hmd sen",
+      "room": null,
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:04:26.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "currentRH",
+        "customName",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "windowOpen"
+      ],
+      "attributes": {
+        "batteryPercentage": 100
+      }
+    },
+    {
+      "id": "4bd8b9b8-9377-4529-891f-79baee3bfbdc_1",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "name": "TIMMERFLOTTE Garage",
+      "room": "Garage",
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:11.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "currentTemperature",
+        "customName",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "windowOpen"
+      ],
+      "attributes": {
+        "batteryPercentage": 100
+      }
+    },
+    {
+      "id": "4bd8b9b8-9377-4529-891f-79baee3bfbdc_2",
+      "type": "sensor",
+      "deviceType": "environmentSensor",
+      "name": "TIMMERFLOTTE Garage",
+      "room": null,
+      "isReachable": true,
+      "lastSeen": "2026-08-28T07:03:11.000Z",
+      "attribute_keys": [
+        "batteryPercentage",
+        "currentRH",
+        "customName",
+        "discriminator",
+        "firmwareVersion",
+        "hardwareVersion",
+        "identifyPeriod",
+        "identifyStarted",
+        "manufacturer",
+        "model",
+        "otaPolicy",
+        "otaProgress",
+        "otaScheduleEnd",
+        "otaScheduleStart",
+        "otaState",
+        "otaStatus",
+        "permittingJoin",
+        "productCode",
+        "qrCode",
+        "serialNumber",
+        "setupCode",
+        "windowOpen"
+      ],
+      "attributes": {
+        "batteryPercentage": 100
+      }
+    }
+  ],
+  "observed_attribute_keys": [
+    "batteryPercentage",
+    "colorTemperature",
+    "currentActivePower",
+    "currentAmps",
+    "currentVoltage",
+    "isOn",
+    "lightLevel",
+    "totalEnergyConsumed"
+  ]
+}
