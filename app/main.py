@@ -148,6 +148,20 @@ def extract_device_attribute(device, *keys, default=None):
     return default
 
 
+def get_device_name(device):
+    name = safe_get(
+        device,
+        "name",
+        "display_name",
+        "displayName",
+        "label",
+        default=None,
+    )
+    if not name:
+        name = extract_device_attribute(device, "custom_name", "customName")
+    return name or "unknown"
+
+
 class DirigeraAdapter:
     def __init__(self, client):
         self.client = client
@@ -183,10 +197,7 @@ def find_outlets(devices):
         # support dict-like and object-like devices
         dtype = safe_get(d, "type", "device_type", "deviceType", default=None)
         dtype = (dtype or "").lower() if isinstance(dtype, str) else ""
-        name = (
-            safe_get(d, "name", "display_name", "displayName", "label", default=None)
-            or "unknown"
-        )
+        name = get_device_name(d)
         if "outlet" in dtype or "plug" in dtype or "smartplug" in dtype or ("outlet" in name.lower()):
             outlets.append((d, name))
     return outlets
@@ -254,19 +265,7 @@ def collect_and_update_metrics(client):
         if not dev_id:
             dev_id = str(id(d))
 
-        # robust name extraction
-        name = None
-        if isinstance(d, dict):
-            name = d.get("name") or d.get("display_name") or d.get("label")
-            attrs = d.get("attributes") or {}
-            if not name:
-                name = attrs.get("custom_name") or attrs.get("customName") or attrs.get("custom_name")
-        else:
-            name = safe_get(d, "attributes", "custom_name") or safe_get(d, "attributes", "customName")
-            if not name:
-                name = safe_get(d, "name", default=None) or safe_get(d, "display_name", default=None) or safe_get(d, "label", default=None)
-        if not name:
-            name = "unknown"
+        name = get_device_name(d)
 
         # type extraction
         if isinstance(d, dict):

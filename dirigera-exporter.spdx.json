@@ -1,0 +1,1452 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "1.51.1"
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/debian@13.6"
+  },
+  "manifests": {
+    "dirigera-exporter:latest:/usr/local/bin/python3.13": {
+      "name": "dirigera-exporter:latest:/usr/local/bin/python3.13",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/bin/python3.13"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      },
+      "resolved": {
+        "pkg:generic/python@3.13.14": {
+          "package_url": "pkg:generic/python@3.13.14",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/annotated_types-0.8.0.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/annotated_types-0.8.0.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/annotated_types-0.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/annotated-types@0.8.0": {
+          "package_url": "pkg:pypi/annotated-types@0.8.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/pydantic@2.13.4"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/certifi-2026.7.22.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/certifi-2026.7.22.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/certifi-2026.7.22.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/certifi@2026.7.22": {
+          "package_url": "pkg:pypi/certifi@2026.7.22",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.34.2"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/charset_normalizer-3.4.9.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/charset_normalizer-3.4.9.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/charset_normalizer-3.4.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/charset-normalizer@3.4.9": {
+          "package_url": "pkg:pypi/charset-normalizer@3.4.9",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.34.2"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/dirigera-1.2.7.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/dirigera-1.2.7.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/dirigera-1.2.7.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/dirigera@1.2.7": {
+          "package_url": "pkg:pypi/dirigera@1.2.7?vcs_url=git%2Bhttps%3A%2F%2Fgithub.com%2FLeggin%2Fdirigera.git%4029374d54c51621bbb71a26057fb4678c58ce7da9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/idna-3.18.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/idna-3.18.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/idna-3.18.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/idna@3.18": {
+          "package_url": "pkg:pypi/idna@3.18",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.34.2"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip-26.1.2.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip-26.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip-26.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      },
+      "resolved": {
+        "pkg:pypi/pip@26.1.2": {
+          "package_url": "pkg:pypi/pip@26.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t32.exe": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t32.exe",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t32.exe"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t64-arm.exe": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t64-arm.exe",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t64-arm.exe"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t64.exe": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t64.exe",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/t64.exe"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w32.exe": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w32.exe",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w32.exe"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w64-arm.exe": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w64-arm.exe",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w64-arm.exe"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w64.exe": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w64.exe",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pip/_vendor/distlib/w64.exe"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:ee525c32493ed1ead1ccfe2e83c5315448fc713083533fc4c36dc294317d17b6"
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/prometheus_client-0.26.0.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/prometheus_client-0.26.0.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/prometheus_client-0.26.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/prometheus-client@0.26.0": {
+          "package_url": "pkg:pypi/prometheus-client@0.26.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pydantic-2.13.4.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pydantic-2.13.4.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pydantic-2.13.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/pydantic@2.13.4": {
+          "package_url": "pkg:pypi/pydantic@2.13.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/dirigera@1.2.7"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pydantic_core-2.46.4.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pydantic_core-2.46.4.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/pydantic_core-2.46.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/pydantic-core@2.46.4": {
+          "package_url": "pkg:pypi/pydantic-core@2.46.4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/pydantic@2.13.4"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/python_dotenv-1.2.2.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/python_dotenv-1.2.2.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/python_dotenv-1.2.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/python-dotenv@1.2.2": {
+          "package_url": "pkg:pypi/python-dotenv@1.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/requests-2.34.2.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/requests-2.34.2.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/requests-2.34.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/requests@2.34.2": {
+          "package_url": "pkg:pypi/requests@2.34.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/dirigera@1.2.7"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/typing_extensions-4.16.0.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/typing_extensions-4.16.0.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/typing_extensions-4.16.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.16.0": {
+          "package_url": "pkg:pypi/typing-extensions@4.16.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/typing-inspection@0.4.2",
+            "pkg:pypi/pydantic@2.13.4",
+            "pkg:pypi/pydantic-core@2.46.4"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/typing_inspection-0.4.2.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/typing_inspection-0.4.2.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/typing_inspection-0.4.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/typing-inspection@0.4.2": {
+          "package_url": "pkg:pypi/typing-inspection@0.4.2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/pydantic@2.13.4"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/urllib3-2.7.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/urllib3@2.7.0": {
+          "package_url": "pkg:pypi/urllib3@2.7.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/requests@2.34.2"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/websocket_client-1.9.0.dist-info/METADATA": {
+      "name": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/websocket_client-1.9.0.dist-info/METADATA",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/usr/local/lib/python3.13/site-packages/websocket_client-1.9.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:pypi/websocket-client@1.9.0": {
+          "package_url": "pkg:pypi/websocket-client@1.9.0",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:pypi/dirigera@1.2.7"
+          ]
+        }
+      }
+    },
+    "dirigera-exporter:latest:/var/lib/dpkg/status": {
+      "name": "dirigera-exporter:latest:/var/lib/dpkg/status",
+      "file": {
+        "source_location": "dirigera-exporter:latest:/var/lib/dpkg/status"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:f44fced6f858b31ef0d100d8ce3dbe943c8a7f000a133d2d2869b68ecb3d9825"
+      },
+      "resolved": {
+        "pkg:deb/debian/adduser@3.152": {
+          "package_url": "pkg:deb/debian/adduser@3.152?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/apt@3.0.3": {
+          "package_url": "pkg:deb/debian/apt@3.0.3?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/base-files@13.8%2Bdeb13u6": {
+          "package_url": "pkg:deb/debian/base-files@13.8%2Bdeb13u6?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/bash@5.2.37-2%2Bb9"
+          ]
+        },
+        "pkg:deb/debian/base-passwd@3.6.7": {
+          "package_url": "pkg:deb/debian/base-passwd@3.6.7?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/bash@5.2.37-2%2Bb9": {
+          "package_url": "pkg:deb/debian/bash@5.2.37-2%2Bb9?arch=arm64&distro=debian-13.6&upstream=bash%405.2.37-2",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/bsdutils@1%3A2.41-5": {
+          "package_url": "pkg:deb/debian/bsdutils@1%3A2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux%402.41-5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/ca-certificates@20250419": {
+          "package_url": "pkg:deb/debian/ca-certificates@20250419?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/coreutils@9.7-3": {
+          "package_url": "pkg:deb/debian/coreutils@9.7-3?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/dash@0.5.12-12": {
+          "package_url": "pkg:deb/debian/dash@0.5.12-12?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/debconf@1.5.91": {
+          "package_url": "pkg:deb/debian/debconf@1.5.91?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/tzdata@2026b-0%2Bdeb13u1",
+            "pkg:deb/debian/libpam0g@1.7.0-5",
+            "pkg:deb/debian/libpam-runtime@1.7.0-5",
+            "pkg:deb/debian/ca-certificates@20250419"
+          ]
+        },
+        "pkg:deb/debian/debian-archive-keyring@2025.1": {
+          "package_url": "pkg:deb/debian/debian-archive-keyring@2025.1?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/debianutils@5.23.2": {
+          "package_url": "pkg:deb/debian/debianutils@5.23.2?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/dash@0.5.12-12",
+            "pkg:deb/debian/bash@5.2.37-2%2Bb9"
+          ]
+        },
+        "pkg:deb/debian/diffutils@1%3A3.10-4": {
+          "package_url": "pkg:deb/debian/diffutils@1%3A3.10-4?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/dpkg@1.22.22": {
+          "package_url": "pkg:deb/debian/dpkg@1.22.22?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/findutils@4.10.0-3": {
+          "package_url": "pkg:deb/debian/findutils@4.10.0-3?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/gcc-14-base@14.2.0-19": {
+          "package_url": "pkg:deb/debian/gcc-14-base@14.2.0-19?arch=arm64&distro=debian-13.6&upstream=gcc-14",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libgcc-s1@14.2.0-19",
+            "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19"
+          ]
+        },
+        "pkg:deb/debian/git-man@1%3A2.47.3-0%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/git-man@1%3A2.47.3-0%2Bdeb13u1?arch=all&distro=debian-13.6&upstream=git",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/grep@3.11-4%2Bb1": {
+          "package_url": "pkg:deb/debian/grep@3.11-4%2Bb1?arch=arm64&distro=debian-13.6&upstream=grep%403.11-4",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/gzip@1.13-1": {
+          "package_url": "pkg:deb/debian/gzip@1.13-1?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/hostname@3.25": {
+          "package_url": "pkg:deb/debian/hostname@3.25?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/init-system-helpers@1.69~deb13u1": {
+          "package_url": "pkg:deb/debian/init-system-helpers@1.69~deb13u1?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/libacl1@2.3.2-2%2Bb1": {
+          "package_url": "pkg:deb/debian/libacl1@2.3.2-2%2Bb1?arch=arm64&distro=debian-13.6&upstream=acl%402.3.2-2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/tar@1.35%2Bdfsg-3.1",
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/sed@4.9-2%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libapt-pkg7.0@3.0.3": {
+          "package_url": "pkg:deb/debian/libapt-pkg7.0@3.0.3?arch=arm64&distro=debian-13.6&upstream=apt",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/libattr1@1%3A2.5.2-3": {
+          "package_url": "pkg:deb/debian/libattr1@1%3A2.5.2-3?arch=arm64&distro=debian-13.6&upstream=attr",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/passwd@1%3A4.17.4-2"
+          ]
+        },
+        "pkg:deb/debian/libaudit-common@1%3A4.0.2-2": {
+          "package_url": "pkg:deb/debian/libaudit-common@1%3A4.0.2-2?arch=all&distro=debian-13.6&upstream=audit",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libaudit1@1%3A4.0.2-2%2Bb2"
+          ]
+        },
+        "pkg:deb/debian/libaudit1@1%3A4.0.2-2%2Bb2": {
+          "package_url": "pkg:deb/debian/libaudit1@1%3A4.0.2-2%2Bb2?arch=arm64&distro=debian-13.6&upstream=audit%401%3A4.0.2-2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libsemanage2@3.8.1-1",
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5",
+            "pkg:deb/debian/libpam0g@1.7.0-5",
+            "pkg:deb/debian/libpam-modules-bin@1.7.0-5"
+          ]
+        },
+        "pkg:deb/debian/libblkid1@2.41-5": {
+          "package_url": "pkg:deb/debian/libblkid1@2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/mount@2.41-5",
+            "pkg:deb/debian/libmount1@2.41-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libbrotli1@1.1.0-2%2Bb7": {
+          "package_url": "pkg:deb/debian/libbrotli1@1.1.0-2%2Bb7?arch=arm64&distro=debian-13.6&upstream=brotli%401.1.0-2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libbsd0@0.12.2-2": {
+          "package_url": "pkg:deb/debian/libbsd0@0.12.2-2?arch=arm64&distro=debian-13.6&upstream=libbsd",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/passwd@1%3A4.17.4-2"
+          ]
+        },
+        "pkg:deb/debian/libbz2-1.0@1.0.8-6": {
+          "package_url": "pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=arm64&distro=debian-13.6&upstream=bzip2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libsemanage2@3.8.1-1",
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/libperl5.40@5.40.1-6",
+            "pkg:deb/debian/dpkg@1.22.22"
+          ]
+        },
+        "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u3": {
+          "package_url": "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u3?arch=arm64&distro=debian-13.6&upstream=glibc",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/libc6@2.41-12%2Bdeb13u3": {
+          "package_url": "pkg:deb/debian/libc6@2.41-12%2Bdeb13u3?arch=arm64&distro=debian-13.6&upstream=glibc",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libreadline8t64@8.2-6",
+            "pkg:deb/debian/libcom-err2@1.47.2-3%2Bb11",
+            "pkg:deb/debian/libnghttp3-9@1.8.0-1",
+            "pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u1",
+            "pkg:deb/debian/libcrypt1@1%3A4.4.38-1",
+            "pkg:deb/debian/libaudit1@1%3A4.0.2-2%2Bb2",
+            "pkg:deb/debian/libacl1@2.3.2-2%2Bb1",
+            "pkg:deb/debian/libtinfo6@6.5%2B20250216-2",
+            "pkg:deb/debian/libgcc-s1@14.2.0-19",
+            "pkg:deb/debian/gzip@1.13-1",
+            "pkg:deb/debian/libudev1@257.13-1~deb13u1",
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1",
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/mount@2.41-5",
+            "pkg:deb/debian/libattr1@1%3A2.5.2-3",
+            "pkg:deb/debian/libsemanage2@3.8.1-1",
+            "pkg:deb/debian/libsepol2@3.8.1-1",
+            "pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libncursesw6@6.5%2B20250216-2",
+            "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5",
+            "pkg:deb/debian/grep@3.11-4%2Bb1",
+            "pkg:deb/debian/libnghttp2-14@1.64.0-1.1%2Bdeb13u1",
+            "pkg:deb/debian/dash@0.5.12-12",
+            "pkg:deb/debian/libcap2@1%3A2.75-10%2Bdeb13u1%2Bb1",
+            "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19",
+            "pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1",
+            "pkg:deb/debian/libunistring5@1.3-2",
+            "pkg:deb/debian/tar@1.35%2Bdfsg-3.1",
+            "pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u3",
+            "pkg:deb/debian/libnettle8t64@3.10.1-1",
+            "pkg:deb/debian/libblkid1@2.41-5",
+            "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libxxhash0@0.8.3-2",
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/sysvinit-utils@3.14-4",
+            "pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1",
+            "pkg:deb/debian/libmount1@2.41-5",
+            "pkg:deb/debian/libbsd0@0.12.2-2",
+            "pkg:deb/debian/libbrotli1@1.1.0-2%2Bb7",
+            "pkg:deb/debian/libp11-kit0@0.25.5-3",
+            "pkg:deb/debian/libdebconfclient0@0.280",
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4",
+            "pkg:deb/debian/libsasl2-modules-db@2.1.28%2Bdfsg1-9",
+            "pkg:deb/debian/perl-base@5.40.1-6",
+            "pkg:deb/debian/bash@5.2.37-2%2Bb9",
+            "pkg:deb/debian/libexpat1@2.8.2-1~deb13u1",
+            "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1",
+            "pkg:deb/debian/diffutils@1%3A3.10-4",
+            "pkg:deb/debian/hostname@3.25",
+            "pkg:deb/debian/sqv@1.3.0-3%2Bb2",
+            "pkg:deb/debian/debianutils@5.23.2",
+            "pkg:deb/debian/libsmartcols1@2.41-5",
+            "pkg:deb/debian/libsystemd0@257.13-1~deb13u1",
+            "pkg:deb/debian/libhogweed6t64@3.10.1-1",
+            "pkg:deb/debian/libpsl5t64@0.21.2-1.1%2Bb1",
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4",
+            "pkg:deb/debian/libidn2-0@2.3.8-2",
+            "pkg:deb/debian/findutils@4.10.0-3",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/libgdbm6t64@1.24-2",
+            "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1",
+            "pkg:deb/debian/libssl3t64@3.5.6-1~deb13u2",
+            "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9",
+            "pkg:deb/debian/zlib1g@1%3A1.3.dfsg%2Breally1.3.1-1%2Bb1",
+            "pkg:deb/debian/base-passwd@3.6.7",
+            "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2",
+            "pkg:deb/debian/libseccomp2@2.6.0-2",
+            "pkg:deb/debian/liblastlog2-2@2.41-5",
+            "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg1-9",
+            "pkg:deb/debian/sed@4.9-2%2Bdeb13u1",
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5",
+            "pkg:deb/debian/libperl5.40@5.40.1-6",
+            "pkg:deb/debian/dpkg@1.22.22",
+            "pkg:deb/debian/libldap2@2.6.10%2Bdfsg-1",
+            "pkg:deb/debian/libgdbm-compat4t64@1.24-2",
+            "pkg:deb/debian/openssl@3.5.6-1~deb13u2",
+            "pkg:deb/debian/libtasn1-6@4.20.0-2%2Bdeb13u1",
+            "pkg:deb/debian/libngtcp2-crypto-gnutls8@1.11.0-1%2Bdeb13u1",
+            "pkg:deb/debian/openssl-provider-legacy@3.5.6-1~deb13u2",
+            "pkg:deb/debian/libkeyutils1@1.6.3-6",
+            "pkg:deb/debian/bsdutils@1%3A2.41-5",
+            "pkg:deb/debian/libpam0g@1.7.0-5",
+            "pkg:deb/debian/libbz2-1.0@1.0.8-6",
+            "pkg:deb/debian/libmd0@1.1.0-2%2Bb1",
+            "pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libselinux1@3.8.1-1",
+            "pkg:deb/debian/libgmp10@2%3A6.3.0%2Bdfsg-3",
+            "pkg:deb/debian/libngtcp2-16@1.11.0-1%2Bdeb13u1",
+            "pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u1",
+            "pkg:deb/debian/libpam-modules-bin@1.7.0-5",
+            "pkg:deb/debian/libffi8@3.4.8-2",
+            "pkg:deb/debian/apt@3.0.3",
+            "pkg:deb/debian/libuuid1@2.41-5",
+            "pkg:deb/debian/liblz4-1@1.10.0-4",
+            "pkg:deb/debian/mawk@1.3.4.20250131-1",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1": {
+          "package_url": "pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1?arch=arm64&distro=debian-13.6&upstream=libcap-ng%400.8.5-4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libaudit1@1%3A4.0.2-2%2Bb2",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libcap2@1%3A2.75-10%2Bdeb13u1%2Bb1": {
+          "package_url": "pkg:deb/debian/libcap2@1%3A2.75-10%2Bdeb13u1%2Bb1?arch=arm64&distro=debian-13.6&upstream=libcap2%401%3A2.75-10%2Bdeb13u1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libudev1@257.13-1~deb13u1",
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/libsystemd0@257.13-1~deb13u1"
+          ]
+        },
+        "pkg:deb/debian/libcom-err2@1.47.2-3%2Bb11": {
+          "package_url": "pkg:deb/debian/libcom-err2@1.47.2-3%2Bb11?arch=arm64&distro=debian-13.6&upstream=e2fsprogs%401.47.2-3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libcrypt1@1%3A4.4.38-1": {
+          "package_url": "pkg:deb/debian/libcrypt1@1%3A4.4.38-1?arch=arm64&distro=debian-13.6&upstream=libxcrypt",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/perl-base@5.40.1-6",
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5",
+            "pkg:deb/debian/libperl5.40@5.40.1-6",
+            "pkg:deb/debian/libpam-modules-bin@1.7.0-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4": {
+          "package_url": "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4?arch=arm64&distro=debian-13.6&upstream=curl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9": {
+          "package_url": "pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9?arch=arm64&distro=debian-13.6&upstream=db5.3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libsasl2-modules-db@2.1.28%2Bdfsg1-9",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/libperl5.40@5.40.1-6"
+          ]
+        },
+        "pkg:deb/debian/libdebconfclient0@0.280": {
+          "package_url": "pkg:deb/debian/libdebconfclient0@0.280?arch=arm64&distro=debian-13.6&upstream=cdebconf",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/base-passwd@3.6.7"
+          ]
+        },
+        "pkg:deb/debian/liberror-perl@0.17030-1": {
+          "package_url": "pkg:deb/debian/liberror-perl@0.17030-1?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libexpat1@2.8.2-1~deb13u1": {
+          "package_url": "pkg:deb/debian/libexpat1@2.8.2-1~deb13u1?arch=arm64&distro=debian-13.6&upstream=expat",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libffi8@3.4.8-2": {
+          "package_url": "pkg:deb/debian/libffi8@3.4.8-2?arch=arm64&distro=debian-13.6&upstream=libffi",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libp11-kit0@0.25.5-3"
+          ]
+        },
+        "pkg:deb/debian/libgcc-s1@14.2.0-19": {
+          "package_url": "pkg:deb/debian/libgcc-s1@14.2.0-19?arch=arm64&distro=debian-13.6&upstream=gcc-14",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19",
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/sqv@1.3.0-3%2Bb2",
+            "pkg:deb/debian/libc6@2.41-12%2Bdeb13u3",
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/libgdbm-compat4t64@1.24-2": {
+          "package_url": "pkg:deb/debian/libgdbm-compat4t64@1.24-2?arch=arm64&distro=debian-13.6&upstream=gdbm",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libperl5.40@5.40.1-6"
+          ]
+        },
+        "pkg:deb/debian/libgdbm6t64@1.24-2": {
+          "package_url": "pkg:deb/debian/libgdbm6t64@1.24-2?arch=arm64&distro=debian-13.6&upstream=gdbm",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libperl5.40@5.40.1-6",
+            "pkg:deb/debian/libgdbm-compat4t64@1.24-2"
+          ]
+        },
+        "pkg:deb/debian/libgmp10@2%3A6.3.0%2Bdfsg-3": {
+          "package_url": "pkg:deb/debian/libgmp10@2%3A6.3.0%2Bdfsg-3?arch=arm64&distro=debian-13.6&upstream=gmp",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5",
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4",
+            "pkg:deb/debian/sqv@1.3.0-3%2Bb2",
+            "pkg:deb/debian/libhogweed6t64@3.10.1-1"
+          ]
+        },
+        "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4": {
+          "package_url": "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4?arch=arm64&distro=debian-13.6&upstream=gnutls28",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5",
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4",
+            "pkg:deb/debian/libngtcp2-crypto-gnutls8@1.11.0-1%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=krb5",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libhogweed6t64@3.10.1-1": {
+          "package_url": "pkg:deb/debian/libhogweed6t64@3.10.1-1?arch=arm64&distro=debian-13.6&upstream=nettle",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5",
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4",
+            "pkg:deb/debian/sqv@1.3.0-3%2Bb2"
+          ]
+        },
+        "pkg:deb/debian/libidn2-0@2.3.8-2": {
+          "package_url": "pkg:deb/debian/libidn2-0@2.3.8-2?arch=arm64&distro=debian-13.6&upstream=libidn2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4",
+            "pkg:deb/debian/libpsl5t64@0.21.2-1.1%2Bb1",
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=krb5",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libkeyutils1@1.6.3-6": {
+          "package_url": "pkg:deb/debian/libkeyutils1@1.6.3-6?arch=arm64&distro=debian-13.6&upstream=keyutils",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=krb5",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libkrb5support0@1.21.3-5%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=krb5",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libgssapi-krb5-2@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libk5crypto3@1.21.3-5%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/liblastlog2-2@2.41-5": {
+          "package_url": "pkg:deb/debian/liblastlog2-2@2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libldap2@2.6.10%2Bdfsg-1": {
+          "package_url": "pkg:deb/debian/libldap2@2.6.10%2Bdfsg-1?arch=arm64&distro=debian-13.6&upstream=openldap",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/liblz4-1@1.10.0-4": {
+          "package_url": "pkg:deb/debian/liblz4-1@1.10.0-4?arch=arm64&distro=debian-13.6&upstream=lz4",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=xz-utils",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/dpkg@1.22.22"
+          ]
+        },
+        "pkg:deb/debian/libmd0@1.1.0-2%2Bb1": {
+          "package_url": "pkg:deb/debian/libmd0@1.1.0-2%2Bb1?arch=arm64&distro=debian-13.6&upstream=libmd%401.1.0-2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libbsd0@0.12.2-2",
+            "pkg:deb/debian/dpkg@1.22.22"
+          ]
+        },
+        "pkg:deb/debian/libmount1@2.41-5": {
+          "package_url": "pkg:deb/debian/libmount1@2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/mount@2.41-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libncursesw6@6.5%2B20250216-2": {
+          "package_url": "pkg:deb/debian/libncursesw6@6.5%2B20250216-2?arch=arm64&distro=debian-13.6&upstream=ncurses",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/libnettle8t64@3.10.1-1": {
+          "package_url": "pkg:deb/debian/libnettle8t64@3.10.1-1?arch=arm64&distro=debian-13.6&upstream=nettle",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5",
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4",
+            "pkg:deb/debian/sqv@1.3.0-3%2Bb2",
+            "pkg:deb/debian/libhogweed6t64@3.10.1-1",
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libnghttp2-14@1.64.0-1.1%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libnghttp2-14@1.64.0-1.1%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=nghttp2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libnghttp3-9@1.8.0-1": {
+          "package_url": "pkg:deb/debian/libnghttp3-9@1.8.0-1?arch=arm64&distro=debian-13.6&upstream=nghttp3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libngtcp2-16@1.11.0-1%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libngtcp2-16@1.11.0-1%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=ngtcp2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4",
+            "pkg:deb/debian/libngtcp2-crypto-gnutls8@1.11.0-1%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/libngtcp2-crypto-gnutls8@1.11.0-1%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libngtcp2-crypto-gnutls8@1.11.0-1%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=ngtcp2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libp11-kit0@0.25.5-3": {
+          "package_url": "pkg:deb/debian/libp11-kit0@0.25.5-3?arch=arm64&distro=debian-13.6&upstream=p11-kit",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libpam-modules-bin@1.7.0-5": {
+          "package_url": "pkg:deb/debian/libpam-modules-bin@1.7.0-5?arch=arm64&distro=debian-13.6&upstream=pam",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libpam-modules@1.7.0-5"
+          ]
+        },
+        "pkg:deb/debian/libpam-modules@1.7.0-5": {
+          "package_url": "pkg:deb/debian/libpam-modules@1.7.0-5?arch=arm64&distro=debian-13.6&upstream=pam",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5",
+            "pkg:deb/debian/libpam-runtime@1.7.0-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libpam-runtime@1.7.0-5": {
+          "package_url": "pkg:deb/debian/libpam-runtime@1.7.0-5?arch=all&distro=debian-13.6&upstream=pam",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libpam0g@1.7.0-5": {
+          "package_url": "pkg:deb/debian/libpam0g@1.7.0-5?arch=arm64&distro=debian-13.6&upstream=pam",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5",
+            "pkg:deb/debian/libpam-modules-bin@1.7.0-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u1": {
+          "package_url": "pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u1?arch=arm64&distro=debian-13.6&upstream=pcre2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1",
+            "pkg:deb/debian/grep@3.11-4%2Bb1",
+            "pkg:deb/debian/libselinux1@3.8.1-1"
+          ]
+        },
+        "pkg:deb/debian/libperl5.40@5.40.1-6": {
+          "package_url": "pkg:deb/debian/libperl5.40@5.40.1-6?arch=arm64&distro=debian-13.6&upstream=perl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/perl@5.40.1-6"
+          ]
+        },
+        "pkg:deb/debian/libpsl5t64@0.21.2-1.1%2Bb1": {
+          "package_url": "pkg:deb/debian/libpsl5t64@0.21.2-1.1%2Bb1?arch=arm64&distro=debian-13.6&upstream=libpsl%400.21.2-1.1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libreadline8t64@8.2-6": {
+          "package_url": "pkg:deb/debian/libreadline8t64@8.2-6?arch=arm64&distro=debian-13.6&upstream=readline",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5": {
+          "package_url": "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5?arch=arm64&distro=debian-13.6&upstream=rtmpdump%402.4%2B20151223.gitfa8646d.1-2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg1-9": {
+          "package_url": "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg1-9?arch=arm64&distro=debian-13.6&upstream=cyrus-sasl2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libldap2@2.6.10%2Bdfsg-1"
+          ]
+        },
+        "pkg:deb/debian/libsasl2-modules-db@2.1.28%2Bdfsg1-9": {
+          "package_url": "pkg:deb/debian/libsasl2-modules-db@2.1.28%2Bdfsg1-9?arch=arm64&distro=debian-13.6&upstream=cyrus-sasl2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg1-9"
+          ]
+        },
+        "pkg:deb/debian/libseccomp2@2.6.0-2": {
+          "package_url": "pkg:deb/debian/libseccomp2@2.6.0-2?arch=arm64&distro=debian-13.6&upstream=libseccomp",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/libselinux1@3.8.1-1": {
+          "package_url": "pkg:deb/debian/libselinux1@3.8.1-1?arch=arm64&distro=debian-13.6&upstream=libselinux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/mount@2.41-5",
+            "pkg:deb/debian/libsemanage2@3.8.1-1",
+            "pkg:deb/debian/tar@1.35%2Bdfsg-3.1",
+            "pkg:deb/debian/libmount1@2.41-5",
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/findutils@4.10.0-3",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/base-passwd@3.6.7",
+            "pkg:deb/debian/sed@4.9-2%2Bdeb13u1",
+            "pkg:deb/debian/dpkg@1.22.22",
+            "pkg:deb/debian/libpam-modules-bin@1.7.0-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libsemanage-common@3.8.1-1": {
+          "package_url": "pkg:deb/debian/libsemanage-common@3.8.1-1?arch=all&distro=debian-13.6&upstream=libsemanage",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libsemanage2@3.8.1-1"
+          ]
+        },
+        "pkg:deb/debian/libsemanage2@3.8.1-1": {
+          "package_url": "pkg:deb/debian/libsemanage2@3.8.1-1?arch=arm64&distro=debian-13.6&upstream=libsemanage",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/passwd@1%3A4.17.4-2"
+          ]
+        },
+        "pkg:deb/debian/libsepol2@3.8.1-1": {
+          "package_url": "pkg:deb/debian/libsepol2@3.8.1-1?arch=arm64&distro=debian-13.6&upstream=libsepol",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libsemanage2@3.8.1-1"
+          ]
+        },
+        "pkg:deb/debian/libsmartcols1@2.41-5": {
+          "package_url": "pkg:deb/debian/libsmartcols1@2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/mount@2.41-5",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=sqlite3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/liblastlog2-2@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1?arch=arm64&distro=debian-13.6&upstream=libssh2",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libssl3t64@3.5.6-1~deb13u2": {
+          "package_url": "pkg:deb/debian/libssl3t64@3.5.6-1~deb13u2?arch=arm64&distro=debian-13.6&upstream=openssl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/libkrb5-3@1.21.3-5%2Bdeb13u1",
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1",
+            "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg1-9",
+            "pkg:deb/debian/libldap2@2.6.10%2Bdfsg-1",
+            "pkg:deb/debian/openssl@3.5.6-1~deb13u2",
+            "pkg:deb/debian/openssl-provider-legacy@3.5.6-1~deb13u2",
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19": {
+          "package_url": "pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=arm64&distro=debian-13.6&upstream=gcc-14",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/libsystemd0@257.13-1~deb13u1": {
+          "package_url": "pkg:deb/debian/libsystemd0@257.13-1~deb13u1?arch=arm64&distro=debian-13.6&upstream=systemd",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/coreutils@9.7-3",
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/libpam-modules@1.7.0-5",
+            "pkg:deb/debian/bsdutils@1%3A2.41-5",
+            "pkg:deb/debian/libpam-modules-bin@1.7.0-5",
+            "pkg:deb/debian/apt@3.0.3",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libtasn1-6@4.20.0-2%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/libtasn1-6@4.20.0-2%2Bdeb13u1?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4"
+          ]
+        },
+        "pkg:deb/debian/libtinfo6@6.5%2B20250216-2": {
+          "package_url": "pkg:deb/debian/libtinfo6@6.5%2B20250216-2?arch=arm64&distro=debian-13.6&upstream=ncurses",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libreadline8t64@8.2-6",
+            "pkg:deb/debian/libncursesw6@6.5%2B20250216-2",
+            "pkg:deb/debian/bash@5.2.37-2%2Bb9",
+            "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libudev1@257.13-1~deb13u1": {
+          "package_url": "pkg:deb/debian/libudev1@257.13-1~deb13u1?arch=arm64&distro=debian-13.6&upstream=systemd",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libunistring5@1.3-2": {
+          "package_url": "pkg:deb/debian/libunistring5@1.3-2?arch=arm64&distro=debian-13.6&upstream=libunistring",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libgnutls30t64@3.8.9-3%2Bdeb13u4",
+            "pkg:deb/debian/libpsl5t64@0.21.2-1.1%2Bb1",
+            "pkg:deb/debian/libidn2-0@2.3.8-2"
+          ]
+        },
+        "pkg:deb/debian/libuuid1@2.41-5": {
+          "package_url": "pkg:deb/debian/libuuid1@2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/util-linux@2.41-5"
+          ]
+        },
+        "pkg:deb/debian/libxxhash0@0.8.3-2": {
+          "package_url": "pkg:deb/debian/libxxhash0@0.8.3-2?arch=arm64&distro=debian-13.6&upstream=xxhash",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/liblz4-1@1.10.0-4"
+          ]
+        },
+        "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1": {
+          "package_url": "pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1?arch=arm64&distro=debian-13.6&upstream=libzstd",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4",
+            "pkg:deb/debian/libssl3t64@3.5.6-1~deb13u2",
+            "pkg:deb/debian/dpkg@1.22.22"
+          ]
+        },
+        "pkg:deb/debian/login.defs@1%3A4.17.4-2": {
+          "package_url": "pkg:deb/debian/login.defs@1%3A4.17.4-2?arch=all&distro=debian-13.6&upstream=shadow",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/passwd@1%3A4.17.4-2",
+            "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5"
+          ]
+        },
+        "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5": {
+          "package_url": "pkg:deb/debian/login@1%3A4.16.0-2%2Breally2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux%402.41-5",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/mawk@1.3.4.20250131-1": {
+          "package_url": "pkg:deb/debian/mawk@1.3.4.20250131-1?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/base-files@13.8%2Bdeb13u6"
+          ]
+        },
+        "pkg:deb/debian/mount@2.41-5": {
+          "package_url": "pkg:deb/debian/mount@2.41-5?arch=arm64&distro=debian-13.6&upstream=util-linux",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/ncurses-base@6.5%2B20250216-2": {
+          "package_url": "pkg:deb/debian/ncurses-base@6.5%2B20250216-2?arch=all&distro=debian-13.6&upstream=ncurses",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2": {
+          "package_url": "pkg:deb/debian/ncurses-bin@6.5%2B20250216-2?arch=arm64&distro=debian-13.6&upstream=ncurses",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/netbase@6.5": {
+          "package_url": "pkg:deb/debian/netbase@6.5?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/openssl-provider-legacy@3.5.6-1~deb13u2": {
+          "package_url": "pkg:deb/debian/openssl-provider-legacy@3.5.6-1~deb13u2?arch=arm64&distro=debian-13.6&upstream=openssl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libssl3t64@3.5.6-1~deb13u2"
+          ]
+        },
+        "pkg:deb/debian/openssl@3.5.6-1~deb13u2": {
+          "package_url": "pkg:deb/debian/openssl@3.5.6-1~deb13u2?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/ca-certificates@20250419"
+          ]
+        },
+        "pkg:deb/debian/passwd@1%3A4.17.4-2": {
+          "package_url": "pkg:deb/debian/passwd@1%3A4.17.4-2?arch=arm64&distro=debian-13.6&upstream=shadow",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/adduser@3.152"
+          ]
+        },
+        "pkg:deb/debian/perl-base@5.40.1-6": {
+          "package_url": "pkg:deb/debian/perl-base@5.40.1-6?arch=arm64&distro=debian-13.6&upstream=perl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/perl-modules-5.40@5.40.1-6",
+            "pkg:deb/debian/perl@5.40.1-6"
+          ]
+        },
+        "pkg:deb/debian/perl-modules-5.40@5.40.1-6": {
+          "package_url": "pkg:deb/debian/perl-modules-5.40@5.40.1-6?arch=all&distro=debian-13.6&upstream=perl",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/perl@5.40.1-6",
+            "pkg:deb/debian/libperl5.40@5.40.1-6"
+          ]
+        },
+        "pkg:deb/debian/perl@5.40.1-6": {
+          "package_url": "pkg:deb/debian/perl@5.40.1-6?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1"
+          ]
+        },
+        "pkg:deb/debian/readline-common@8.2-6": {
+          "package_url": "pkg:deb/debian/readline-common@8.2-6?arch=all&distro=debian-13.6&upstream=readline",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/libreadline8t64@8.2-6"
+          ]
+        },
+        "pkg:deb/debian/sed@4.9-2%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/sed@4.9-2%2Bdeb13u1?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/sqv@1.3.0-3%2Bb2": {
+          "package_url": "pkg:deb/debian/sqv@1.3.0-3%2Bb2?arch=arm64&distro=debian-13.6&upstream=rust-sequoia-sqv%401.3.0-3",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/apt@3.0.3"
+          ]
+        },
+        "pkg:deb/debian/sysvinit-utils@3.14-4": {
+          "package_url": "pkg:deb/debian/sysvinit-utils@3.14-4?arch=arm64&distro=debian-13.6&upstream=sysvinit",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/tar@1.35%2Bdfsg-3.1": {
+          "package_url": "pkg:deb/debian/tar@1.35%2Bdfsg-3.1?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/dpkg@1.22.22"
+          ]
+        },
+        "pkg:deb/debian/tzdata@2026b-0%2Bdeb13u1": {
+          "package_url": "pkg:deb/debian/tzdata@2026b-0%2Bdeb13u1?arch=all&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/util-linux@2.41-5": {
+          "package_url": "pkg:deb/debian/util-linux@2.41-5?arch=arm64&distro=debian-13.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:deb/debian/zlib1g@1%3A1.3.dfsg%2Breally1.3.1-1%2Bb1": {
+          "package_url": "pkg:deb/debian/zlib1g@1%3A1.3.dfsg%2Breally1.3.1-1%2Bb1?arch=arm64&distro=debian-13.6&upstream=zlib%401%3A1.3.dfsg%2Breally1.3.1-1",
+          "relationship": "direct",
+          "scope": "runtime",
+          "dependencies": [
+            "pkg:deb/debian/git@1%3A2.47.3-0%2Bdeb13u1",
+            "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2%2Bb5",
+            "pkg:deb/debian/libapt-pkg7.0@3.0.3",
+            "pkg:deb/debian/libssh2-1t64@1.11.1-1%2Bdeb13u1",
+            "pkg:deb/debian/libcurl3t64-gnutls@8.14.1-2%2Bdeb13u4",
+            "pkg:deb/debian/libssl3t64@3.5.6-1~deb13u2",
+            "pkg:deb/debian/libperl5.40@5.40.1-6",
+            "pkg:deb/debian/dpkg@1.22.22"
+          ]
+        }
+      }
+    }
+  },
+  "scanned": "2026-09-03T14:24:42+02:00"
+}
